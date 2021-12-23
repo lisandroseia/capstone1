@@ -5,157 +5,151 @@ media-querys table
 /* big screens*/
 
 @media (min-width: 1200px) {
-    body{
-        margin-top: 10vh;
-    }
-    main{
-        background-color: #fff;
-    }
-
+  body {
+    margin-top: 10vh;
+  }
+  main {
+    background-color: #fff;
+  }
 }
 
 /* horizontal tablets and average desktop*/
 
-@media (min-width:768px) and (max-width:1199px) {
-    body{
-        margin-top: 10vh;
-    }
+@media (min-width: 768px) and (max-width: 1199px) {
+  body {
+    margin-top: 10vh;
+  }
 
-    main{
-        background-color: #fff;
-    }
+  main {
+    background-color: #fff;
+  }
 
-    .sponsor-img{
-        width: 100px;
-    }
+  .sponsor-img {
+    width: 100px;
+  }
 }
 
 /*horizontal moviles*/
 
 @media (max-width: 767px) {
+  main {
+    inset: 0 0 95vh 0;
+  }
 
+  .header-ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    inset: 0 0 0 0;
+    transform: translateX(100%);
+  }
 
+  .logo-main {
+    display: none;
+  }
 
-    main{
-        inset: 0 0 95vh 0;
-       }
-   
-      .header-ul{
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       position: fixed;
-       background-color: #fff;
-       inset: 0 0 0 0;
-       transform: translateX(100%);
-      }
-   
-      .logo-main{
-          display: none;
-      }
-   
-      .header-ul[data-visible='true'] {
-          transform: translateX(0%);
-      }
-   
-      .hamburger-btn{
-          display: block;
-      }
+  .header-ul[data-visible='true'] {
+    transform: translateX(0%);
+  }
 
-      /* presentation */
+  .hamburger-btn {
+    display: block;
+  }
 
-      .presentation{
-        height: 90vh;
-      }
+  /* presentation */
 
-      .present-text{
-          width: 90%;
-         padding: 70px 0 0 20px;
-      }
+  .presentation {
+    height: 90vh;
+  }
 
-      .line-break{
-          display: none;
-      }
+  .present-text {
+    width: 90%;
+    padding: 70px 0 0 20px;
+  }
 
-      h1{
-          font-size: 33px;
-          margin: 40px 0;
-      }
+  .line-break {
+    display: none;
+  }
 
-      .present-subtitle{
-          font-size: 17px;
-      }
+  h1 {
+    font-size: 33px;
+    margin: 40px 0;
+  }
 
-      .present-desc{
-          width: 100%;
-          padding: 5px;
-          font-size: 13px;
-      }
+  .present-subtitle {
+    font-size: 17px;
+  }
 
-      .date{
-          font-size: 27px;
-          margin: 20px 0 10px  0;
-      }
+  .present-desc {
+    width: 100%;
+    padding: 5px;
+    font-size: 13px;
+  }
 
-      .credits{
-          font-size: 13px;
-      }
+  .date {
+    font-size: 27px;
+    margin: 20px 0 10px 0;
+  }
 
-      .program{
-          height: auto;
-      }
+  .credits {
+    font-size: 13px;
+  }
 
-      .program-container{
-          width: 95%;
-        display: grid;
-        grid-template-columns: 1.5fr;
-        grid-template-rows: repeat(5, 1fr);
-        grid-row-gap: 10px;
-      }
+  .program {
+    height: auto;
+  }
 
-      .box{
-          padding: 0 10px;
-          display: flex;
-          height: auto;
-          align-items: center;
-          justify-content: space-between;
-          text-align: left;
-      }
+  .program-container {
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1.5fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 10px;
+  }
 
-      .program-title{
-        margin: 0 15px;
-      }
+  .box {
+    padding: 0 10px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+  }
 
-      .whole-program{
-          text-decoration: none;
-          background-color: var(--primary-color);
-          padding: 20px 50px;
-      }
+  .program-title {
+    margin: 0 15px;
+  }
 
-      footer{
-          display: none;
-      }
+  .whole-program {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 20px 50px;
+  }
 
-      .grid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(8, 1fr);
-        width: 90%;
-        margin: auto;    
-    }
+  footer {
+    display: none;
+  }
 
-    .speaker > img{
-        height: 70%;
-    }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    width: 90%;
+    margin: auto;
+  }
 
-    .social{
-        display: none;
-    }
+  .speaker > img {
+    height: 70%;
+  }
+
+  .social {
+    display: none;
+  }
 }
 
 /*average moviles*/
 
-@media (max-width:480px) {
-    
+@media (max-width: 480px) {
 }
-
