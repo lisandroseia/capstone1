@@ -1,22 +1,22 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone
 
-> One paragraph statement about the project.
+> In this project i made a capstone wit [this requirements](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md)
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This capstone is a presentagion web page for a dog agility contest, with a completely functional
+navigation bar, a mobile menu, and a section created with pure javascript (featured trainers section)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS & JS
+- Github
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lisandroseia.github.io/capstone1/)
 
 
 ## Getting Started
@@ -29,37 +29,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+To check this project you only need internet conection
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+To get the best of this project, you can check it on different sizes, and test the navigation bar
 
 ## Authors
 
-👤 **Author1**
+👤 **lisandro seia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lisandro seia](https://github.com/lisandroseia)
+- LinkedIn: [@lisandro seia](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/lisandroseia/capstone1/issues).
 
 ## Show your support
 
@@ -67,10 +55,12 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I used  this [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015),
+  and I tried to adapt it to my topic.
+-Original design idea by [Cindy Shin](https://www.behance.net/adagio07)
+- I am extremely thankful with all my coding partners, who helped me a lot
+- I inspired in my dog, thats why i choosed this topic
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/lisandroseia/capstone1/blob/main/MIT.md) licensed.
