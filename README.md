@@ -29,37 +29,25 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+To check this project you only need internet conection
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+To get the best of this project, you can check it on different sizes, and test the navigation bar
 
 ## Authors
 
-👤 **Author1**
+👤 **lisandro seia**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lisandro seia](https://github.com/lisandroseia)
+- LinkedIn: [@lisandro seia](https://www.linkedin.com/in/lisandro-seia-295120225/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/lisandroseia/capstone1/issues).
 
 ## Show your support
 
@@ -67,10 +55,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I used  this [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015),
+and I tried to adapt it to my topic.
+- I am extremely thankful with all my coding partners, who helped me a lot
+- I inspired in my dog, thats why i choosed this topic
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](https://github.com/lisandroseia/capstone1/blob/main/MIT.md) licensed.
