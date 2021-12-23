@@ -1,0 +1,149 @@
+/*resposive 
+media-querys table
+*/
+
+/* big screens*/
+
+@media (min-width: 1200px) {
+    body{
+        margin-top: 10vh;
+    }
+    main{
+        background-color: #fff;
+    }
+
+    .partner{
+        display: none;
+    }
+
+    .presentation{
+        padding-top: 80px;
+        height: 100vh;
+    }
+}
+
+/* horizontal tablets and average desktop*/
+
+@media (min-width:768px) and (max-width:1199px) {
+    body{
+        margin-top: 10vh;
+    }
+
+    main{
+        background-color: #fff;
+    }
+    .partner{
+        display: none;
+    }
+
+}
+
+/*horizontal moviles*/
+
+@media (max-width: 767px) {
+
+    main{
+     inset: 0 0 95vh 0;
+    }
+
+   .header-ul{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    inset: 0 0 0 0;
+    transform: translateX(100%);
+   }
+
+   .logo-main{
+       display: none;
+   }
+
+   .header-ul[data-visible='true'] {
+       transform: translateX(0%);
+   }
+
+   .hamburger-btn{
+       display: block;
+   }
+
+   /* presentation */
+
+   .presentation{
+       padding-top: 100px;
+       gap: 3%;
+   }
+
+   h1{
+      font-size: 35px;
+   }
+
+   .present-desc{
+       text-align: center;
+       width: 90%;
+padding: 5px;
+   }
+
+   .logo-show{
+       align-items: center;
+       width: 90%;
+       height: 300px;
+       font-size: 330%;
+   }
+
+   .logo-cont{
+       height: 70vh;
+   }
+
+   .past-events{
+       height: 105vh;
+   }
+
+   .event-subtitle{
+       width: 80%;
+       text-align: center;
+   }
+
+   .events-pics{
+       flex-direction: column;
+   }
+
+   .event1, .event2{
+       width: 100%;
+       height: 350px;
+   }
+
+   .copy-claim{
+       display: none;
+   }
+
+   .copyright{
+       height: 12vh;
+       width: 100%;
+       background: #fff;
+    }
+
+    .footer-logo, .reservation{
+        margin-right: 15px;
+     color: var(--dark-color);
+    }
+}
+
+/*average moviles*/
+
+@media (max-width:480px) {
+    .event1, .event2{
+        width: 100%;
+        height: 200px;
+    }
+
+    .footer{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .logo-show{
+        font-size: 250%;
+    }
+}
