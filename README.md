@@ -1,18 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Capstone
 
-> One paragraph statement about the project.
+> In this project i made a capstone wit [this requirements](https://github.com/microverseinc/curriculum-html-css/blob/main/capstone/html_capstone.md)
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+This capstone is a presentagion web page for a dog agility contest, with a completely functional
+navigation bar, a mobile menu, and a section created with pure javascript (featured trainers section)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS & JS
+- Github
 
 ## Live Demo
 
