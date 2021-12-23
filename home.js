@@ -22,7 +22,7 @@ btn.addEventListener('click', () => {
 
 /* speakers */
 
-let trainers = [
+const trainers = [
   {
     name: 'AMR SALAMA',
     bio: 'Egypt-based film director, author and dog trainer',
@@ -92,10 +92,10 @@ const grid = document.createElement('div');
 grid.className = 'grid-container';
 container.appendChild(grid);
 
-let speakers = [];
+const speakers = [];
 
-for (let i = 0; i < 8; i++) {
-  let actualSpeaker = document.createElement('div');
+for (let i = 0; i < 8; i += 1 {
+  const actualSpeaker = document.createElement('div');
   actualSpeaker.className = 'speaker';
   actualSpeaker.innerHTML = `
     <img src="${trainers[i].img}">
@@ -109,8 +109,6 @@ for (let i = 0; i < 8; i++) {
   speakers.push(actualSpeaker);
 }
 
-for (let i = 0; i < 8; i++) {
+for (let i = 0; i < 8; i += 1) {
   grid.appendChild(speakers[i]);
 }
-
-console.log(trainers[0]);
