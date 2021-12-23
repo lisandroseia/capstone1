@@ -16,7 +16,7 @@ navigation bar, a mobile menu, and a section created with pure javascript (featu
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://lisandroseia.github.io/capstone1/)
 
 
 ## Getting Started
@@ -56,7 +56,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - I used  this [template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015),
-and I tried to adapt it to my topic.
+  and I tried to adapt it to my topic.
+-Original design idea by [Cindy Shin](https://www.behance.net/adagio07)
 - I am extremely thankful with all my coding partners, who helped me a lot
 - I inspired in my dog, thats why i choosed this topic
 
