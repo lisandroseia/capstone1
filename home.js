@@ -94,7 +94,7 @@ container.appendChild(grid);
 
 const speakers = [];
 
-for (let i = 0; i < 8; i += 1 {
+for (let i = 0; i < 8; i += 1) {
   const actualSpeaker = document.createElement('div');
   actualSpeaker.className = 'speaker';
   actualSpeaker.innerHTML = `
